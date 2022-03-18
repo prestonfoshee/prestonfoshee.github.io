@@ -2,16 +2,16 @@
 <html lang="en">
 
   <!-- Head -->
-  <head><meta http-equiv="refresh" content="3; url=https://prestonfoshee.github.io/" />    <!-- Metadata, OpenGraph and Schema.org -->
+  <head>    <!-- Metadata, OpenGraph and Schema.org -->
     
 
     <!-- Standard metadata -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Preston  Foshee | Page not found</title>
+    <title>Preston  Foshee | Node.js OpenSea NFT Stats REST API</title>
     <meta name="author" content="Preston  Foshee" />
-    <meta name="description" content="Looks like there has been a mistake. Nothing exists here." />
+    <meta name="description" content="Web scraping to get stats on NFT's listed on OpenSea." />
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website" />
 
 
@@ -32,7 +32,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚀</text></svg>">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://prestonfoshee.github.io/404.html">
+    <link rel="canonical" href="https://prestonfoshee.github.io/projects/nft-stats-api/">
     
     <!-- Dark Mode -->
     
@@ -95,12 +95,41 @@
         <div class="post">
 
           <header class="post-header">
-            <h1 class="post-title">Page not found</h1>
-            <p class="post-description">Looks like there has been a mistake. Nothing exists here.</p>
+            <h1 class="post-title">Node.js OpenSea NFT Stats REST API</h1>
+            <p class="post-description">Web scraping to get stats on NFT's listed on OpenSea.</p>
           </header>
 
           <article>
-            <p>You will be redirected to the main page within 3 seconds. If not redirected, please click <a href="https://prestonfoshee.github.io/">here</a>.</p>
+            <p>You can view the source code for this project on GitHub <a href="https://github.com/prestonfoshee/nft-stats-api" target="_blank" rel="noopener noreferrer">here</a>.</p>
+
+<p>OpenSea wouldn’t approve my request for a key for their developer API to get NFT stats, so I decided to scrape their
+website and build my own! The API is written in Node.js and uses <a href="https://github.com/puppeteer/puppeteer" target="_blank" rel="noopener noreferrer">Pupeteer</a> to peform web scraping in headless mode.</p>
+
+<p>Users are able to enter the slug of any collection on OpenSea, which returns JSON data for the social links, collection image, price stats, traits, and description of the collection.</p>
+
+<div class="caption">
+    Below is an example of a JSON response from the server:
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/nft-stats-results-480.webp"></source>
+    <source media="(max-width: 800px)" srcset="/assets/img/nft-stats-results-800.webp"></source>
+    <source media="(max-width: 1400px)" srcset="/assets/img/nft-stats-results-1400.webp"></source>
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/nft-stats-results.png" title="example image">
+
+  </picture>
+
+</figure>
+
+    </div>
+</div>
+<div class="caption">
+    This particular response results from scraping the <a href="https://opensea.io/collection/boredapeyachtclub" target="_blank" rel="noopener noreferrer">Bored Ape Yacht Club</a> collection page.
+</div>
 
           </article>
 
