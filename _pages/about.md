@@ -2,23 +2,39 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Full-Stack Web Developer
 
 profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p><a href="mailto: prestonfoshee.dev@gmail.com">prestonfoshee.dev@gmail.com</a></p>
+    <p>(813) 347-6232</p>
+    <p>Currently living in Orlando, FL</p>
+    <p><a href="/assets/pdf/preston-foshee-resume.pdf" target="_blank">My resume</a></p>
 
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+news: false  # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+### **About Me**
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+👋 Hi, I’m Preston Foshee, a full-stack web developer passionate about building modern web apps. JavaScript is my favorite language and Vue.js is my framework of choice. In addition to web development, I have experience in UX/UI Design from building prototypes for my personal projects as well as during my intership with Thunder Media Group during the summer of 2021.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I was born and raised in Tampa, FL and am currently attending the University of Central Florida in Orlando, where I will graduate in May of 2022 with a Bachelor's degree in Web Design from the College of Sciences.
+
+### **Professional Experience**
+
+**Thunder Media Group Web Development Internship**
+
+- Designed the front end of multiple websites for clients using WordPress
+- Wrote PHP to make form submissions more secure
+- Migrated existing sites to new servers
+- Designed business cards for clients
+
+- Contact - **Shane Fitton:** (721) 871-2299
+
+### **Projects**
+
+[You can view my projects here](/projects)
